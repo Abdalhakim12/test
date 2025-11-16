@@ -1,0 +1,338 @@
+body {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
+.container {
+  max-width: 1400px;
+  margin: auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header h1 {
+  color: #ff7200;
+  font-weight: bold;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+  font-size: 20px;
+  margin: auto;
+  font-weight: bold;
+  color: white;
+}
+ul li {
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+ul li:hover {
+  transform: translateY(-5px);
+  color: #ff7200;
+}
+.search-box {
+  display: flex;
+  width: 350px;
+  border: 1px solid #ff7200;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+}
+
+.search-box button {
+  background: #ff7200;
+  border: none;
+  padding: 0 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.search-box button:hover {
+  background: rgba(255, 114, 0, 0.5);
+}
+section {
+  margin: auto;
+  max-width: 1300px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 130px;
+}
+.left {
+  margin-right: -60px;
+}
+section h2 {
+  color: white;
+  font-size: 45px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+span {
+  font-size: 50px;
+  color: #ff7200;
+}
+section p {
+  color: white;
+  font-size: 20px;
+  line-height: 1.5;
+  opacity: 0.8;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+section button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  font-size: 25px;
+  color: black;
+  background: rgb(255, 114, 0);
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+section button:hover {
+  scale: 1.1;
+}
+.form {
+  background-color: black;
+  max-width: 350px;
+  margin-left: 220px;
+  opacity: 0.8;
+  border: none;
+  border-radius: 12px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+form button {
+  margin: auto;
+  margin-top: 50px;
+  width: 280px;
+  color: rgb(255, 114, 0);
+  height: 50px;
+  background-color: white;
+  font-weight: bold;
+}
+form input {
+  margin: auto;
+  margin-top: 50px;
+  width: 280px;
+  color: rgb(255, 114, 0);
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px rgb(255, 114, 0) solid;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.Login {
+  margin: auto;
+  margin-top: 50px;
+  width: 280px;
+  color: black;
+  height: 50px;
+  background-color: rgb(255, 114, 0);
+  font-weight: bold;
+}
+form p {
+  margin: auto;
+  margin-top: 50px;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+form span {
+  margin: auto;
+  color: rgb(255, 114, 0);
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+.icons {
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+.icons img {
+  width: 50px;
+  aspect-ratio: 1/1;
+  transition: 0.3s ease-in-out;
+}
+.icons img:hover {
+  scale: 1.09;
+}
+@media (max-width: 425px) {
+  header {
+    display: none;
+  }
+  section {
+    margin: auto;
+    max-width: 1300px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 150px;
+    text-align: center;
+  }
+  .form {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 70px;
+  }
+  form button {
+    margin: auto;
+    margin-top: 50px;
+    width: 180px;
+    color: rgb(255, 114, 0);
+    height: 50px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  form input {
+    margin: auto;
+    margin-top: 50px;
+    width: 180px;
+    color: rgb(255, 114, 0);
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px rgb(255, 114, 0) solid;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .Login {
+    margin: auto;
+    margin-top: 50px;
+    width: 180px;
+    color: black;
+    height: 50px;
+    background-color: rgb(255, 114, 0);
+    font-weight: bold;
+  }
+  form p {
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+  }
+  form span {
+    margin: auto;
+    color: rgb(255, 114, 0);
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+  }
+  .icons img {
+    width: 30px;
+    aspect-ratio: 1/1;
+    transition: 0.3s ease-in-out;
+  }
+}
+@media (max-width: 430px) and (min-width: 425px) {
+  header {
+    display: none;
+  }
+  section {
+    margin: auto;
+    max-width: 1300px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .form {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 80px;
+  }
+  form button {
+    margin: auto;
+    margin-top: 50px;
+    width: 180px;
+    color: rgb(255, 114, 0);
+    height: 50px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  form input {
+    margin: auto;
+    margin-top: 50px;
+    width: 180px;
+    color: rgb(255, 114, 0);
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px rgb(255, 114, 0) solid;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .Login {
+    margin: auto;
+    margin-top: 50px;
+    width: 180px;
+    color: black;
+    height: 50px;
+    background-color: rgb(255, 114, 0);
+    font-weight: bold;
+  }
+  form p {
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+  }
+  form span {
+    margin: auto;
+    color: rgb(255, 114, 0);
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+  }
+  .icons img {
+    width: 30px;
+    aspect-ratio: 1/1;
+    transition: 0.3s ease-in-out;
+  }
+}
