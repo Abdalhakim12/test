@@ -202,7 +202,7 @@ form span {
     text-align: center;
   }
   .form {
-    width: 300px;
+    width: 700px;
     margin: auto;
     margin-bottom: 20px;
     text-align: center;
@@ -211,7 +211,7 @@ form span {
   form button {
     margin: auto;
     margin-top: 50px;
-    width: 180px;
+    width: 280px;
     color: rgb(255, 114, 0);
     height: 50px;
     background-color: white;
@@ -221,7 +221,7 @@ form span {
   form input {
     margin: auto;
     margin-top: 50px;
-    width: 180px;
+    width: 280px;
     color: rgb(255, 114, 0);
     height: 50px;
     background-color: transparent;
@@ -233,7 +233,7 @@ form span {
   .Login {
     margin: auto;
     margin-top: 50px;
-    width: 180px;
+    width: 280px;
     color: black;
     height: 50px;
     background-color: rgb(255, 114, 0);
@@ -246,7 +246,7 @@ form span {
     font-weight: bold;
     margin-top: 20px;
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
   }
   form span {
     margin: auto;
@@ -277,7 +277,7 @@ form span {
     justify-content: center;
   }
   .form {
-    width: 300px;
+    width: 700px;
     margin: auto;
     margin-bottom: 20px;
     text-align: center;
@@ -286,7 +286,7 @@ form span {
   form button {
     margin: auto;
     margin-top: 50px;
-    width: 180px;
+    width: 280px;
     color: rgb(255, 114, 0);
     height: 50px;
     background-color: white;
@@ -296,7 +296,7 @@ form span {
   form input {
     margin: auto;
     margin-top: 50px;
-    width: 180px;
+    width: 280px;
     color: rgb(255, 114, 0);
     height: 50px;
     background-color: transparent;
@@ -308,7 +308,7 @@ form span {
   .Login {
     margin: auto;
     margin-top: 50px;
-    width: 180px;
+    width: 280px;
     color: black;
     height: 50px;
     background-color: rgb(255, 114, 0);
@@ -321,13 +321,13 @@ form span {
     font-weight: bold;
     margin-top: 20px;
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
   }
   form span {
     margin: auto;
     color: rgb(255, 114, 0);
     font-weight: bold;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
   }
   .icons img {
